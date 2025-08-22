@@ -1,69 +1,31 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="public/logo.png" alt="Aura Logo" width="200"/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌌 Aura — The Next Generation IDE
 
-Currently, two official plugins are available:
+## About Aura IDE
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+**Aura** is a futuristic code editor and IDE concept, inspired by the sleek design and dynamic experience of Opera GX (for those who know 😉).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+While building a full-fledged IDE is a massive undertaking, Aura starts with a simple but powerful goal: **to create an extensible code editor** with an immersive UI, sound effects, smooth transitions, and customization that brings joy to developers.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This project is in its early stages, but the vision is clear — reimagining what it feels like to write code.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## A Message from the Creator
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Hi! I'm **Olivier**, a high school student and hobbyist software developer. I love solving problems and turning creative ideas into real projects.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+I don’t have a big team (yet), and I’m not sure how this project will grow. But if you’ve stumbled across Aura and share the same passion, I’d love to have you involved.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Whether it's through code, design, ideas, or feedback — your contribution could help shape something awesome.
+
+## ✨ Thanks for Reading
+
+Stay tuned for updates — and maybe, the future of code editing.
+
+---
