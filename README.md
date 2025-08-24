@@ -1,31 +1,50 @@
-<p align="center">
-  <img src="public/logo.png" alt="Aura Logo" width="200"/>
-</p>
+# Notiq
 
-# 🌌 Aura — The Next Generation IDE
+A cross-platform Markdown editor and previewer built with React and Electron, with a focus on a clean user interface and seamless integration with your file system.
 
-## About Aura IDE
+## About
 
----
+[Your App Name Here] is a modern, cross-platform application designed to provide a beautiful and efficient Markdown editing and previewing experience. Built with a focus on performance and user experience, it aims to be a reliable tool for writers, developers, and anyone who works with Markdown files.
+Notiq is a modern, cross-platform application designed to provide a beautiful and efficient Markdown editing and previewing experience. Built with a focus on performance and user experience, it aims to be a reliable tool for writers, developers, and anyone who works with Markdown files.
 
-**Aura** is a futuristic code editor and IDE concept, inspired by the sleek design and dynamic experience of Opera GX (for those who know 😉).
+## Features
 
-While building a full-fledged IDE is a massive undertaking, Aura starts with a simple but powerful goal: **to create an extensible code editor** with an immersive UI, sound effects, smooth transitions, and customization that brings joy to developers.
+- **Cross-Platform:** Available on Windows, macOS, and Linux, thanks to Electron.
+- **Beautiful Themed Preview:** Enjoy your Markdown with stunning, customizable themes.
+- **Real-time Editing:** See your changes reflected instantly in the preview.
+- **Native File Integration:** Open, edit, and save Markdown files directly from your file system.
+- **Extensible Markdown Pipeline:** Powered by the unified ecosystem for robust parsing and rendering.
+- **Syntax Highlighting:** Code blocks in your Markdown are beautifully highlighted.
+- **Secure Preview:** Sanitized HTML rendering ensures a safe viewing experience.
+- **Theming Engine:** Customize or create your own themes with a flexible CSS variable system.
 
-This project is in its early stages, but the vision is clear — reimagining what it feels like to write code.
+## Why I Built This
 
-## A Message from the Creator
+Hi, I'm Kwizera Mugisha Olivier, the developer behind Notiq.
 
----
+I built this application because I saw a need for a Markdown editor that was both powerful and aesthetically pleasing, with a focus on a seamless cross-platform desktop experience. While there are many web-based or platform-specific Markdown tools available, I wanted to create something that felt truly native on any operating system, offering deep integration with the file system and a delightful user interface.
 
-Hi! I'm **Olivier**, a high school student and hobbyist software developer. I love solving problems and turning creative ideas into real projects.
+My goal is to provide a tool that makes writing and previewing Markdown a joy, allowing users to focus on their content without being hindered by clunky interfaces or limited functionality. This project is an ongoing effort to build a robust, user-friendly, and beautiful Markdown editor for everyone.
 
-I don’t have a big team (yet), and I’m not sure how this project will grow. But if you’ve stumbled across Aura and share the same passion, I’d love to have you involved.
+## Technologies Used
 
-Whether it's through code, design, ideas, or feedback — your contribution could help shape something awesome.
+- **Frontend:** React, TypeScript, Vite
+- **Editor:** CodeMirror 6
+- **Markdown Parsing:** unified, remark, rehype
+- **Styling:** CSS Modules (or mention your chosen styling method if different)
+- **Desktop Packaging:** Electron
 
-## ✨ Thanks for Reading
+## Project Structure
 
-Stay tuned for updates — and maybe, the future of code editing.
+- `.idx`: Contains files related to the development environment setup using Nix.
+- `src/electron`: Houses the Electron main and preload scripts.
+- `src/ui`: Contains the React application for the user interface.
+  - `src/ui/src`: The main source code for the React application.
+  - `src/ui/public`: Static assets.
+  - `src/ui/dist`: Build output for the React application.
 
----
+## Getting Started
+
+To get started with the application, follow these steps:
+
+1.  **Clone the repository:** Open your terminal and run:
