@@ -6,7 +6,13 @@
     "esModuleInterop": true,
     "outDir": "dist",
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    /* Path Aliases */
+    "baseUrl": "../../",
+    "paths": {
+      "@aura/shared": ["packages/shared/src"]
+    }
   },
   "include": ["src"]
 }

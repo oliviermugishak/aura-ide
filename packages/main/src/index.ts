@@ -1,10 +1,13 @@
 import { app, BrowserWindow } from "electron";
 import * as path from "path";
 import * as dotenv from "dotenv";
+import { logger } from "@aura/shared";
 
 // Load environment variables
 dotenv.config({ path: path.join(__dirname, "../.env") });
 
+logger.info("Aura electron instance starting...");
+console.log("Does logging even works");
 function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 1600,

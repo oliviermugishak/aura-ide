@@ -1,5 +1,5 @@
 {
-  "name": "@notiq/main",
+  "name": "@aura/main",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "electron ."
   },
   "dependencies": {
-    "@notiq/shared": "1.0.0",
+    "@aura/shared": "^1.0.0",
     "dotenv": "^17.2.1",
     "electron": "^27.0.0"
   },

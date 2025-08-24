@@ -1,5 +1,5 @@
 {
-  "name": "notiq",
+  "name": "@aura",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
@@ -10,7 +10,8 @@
     "dev": "concurrently \"npm run dev:renderer\" \"npm run dev:main\"",
     "dev:main": "cross-env NODE_ENV=development electron packages/main/dist/index.js",
     "dev:renderer": "cd packages/renderer && vite",
-    "build": "npm run build:renderer && npm run build:main",
+    "build": "npm run build:shared && npm run build:renderer && npm run build:main",
+    "build:shared": "cd packages/shared && tsc",
     "build:main": "cd packages/main && tsc",
     "build:renderer": "cd packages/renderer && vite build",
     "clean": "rimraf packages/*/dist"

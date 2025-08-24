@@ -1,7 +1,7 @@
 {
-  "name": "aura",
+  "name": "@aura/renderer",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aura/shared": "^1.0.0",
     "@heroui/react": "^2.8.2",
     "@tailwindcss/vite": "^4.1.12",
     "framer-motion": "^12.23.12",

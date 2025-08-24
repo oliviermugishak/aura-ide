@@ -8,6 +8,4 @@ export interface SharedTypes {
   // Add your shared type definitions here
 }
 
-export const readAll = () => {
-  console.log("Reading all");
-};
+export { logger } from "./logger";
